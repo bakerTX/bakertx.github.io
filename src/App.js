@@ -18,7 +18,7 @@ function App() {
       </header>
 
       <div className="util-column util-centered">
-        <img src={photo} alt="portrait of aaron baker" width="500" />
+        <img src={photo} alt="artistic depiction of an astronaut" width="500" />
         <span>
           Photo credit
           {'  '}
