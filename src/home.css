@@ -1,7 +1,6 @@
-.everything {
+.master-container {
   max-width: 75%;
   margin: 0 auto;
-
   padding-bottom: 75px;
 }
 
@@ -10,14 +9,9 @@
   margin-top: 0;
 }
 
-.hero-image {
-  width: 500px;
-  max-width: 100%;
-}
-
 /* small screens */
 @media (max-width: 800px) {
-  .everything {
+  .master-container {
     max-width: 96%;
   }
 
@@ -28,7 +22,7 @@
 
 /* large screens */
 @media (min-width: 1400px) {
-  .everything {
+  .master-container {
     max-width: 1000px;
   }
 }
