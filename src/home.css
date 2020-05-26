@@ -1,7 +1,14 @@
 .master-container {
-  max-width: 75%;
-  margin: 0 auto;
-  padding-bottom: 75px;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.master-container .flex-item {
+  flex-basis: 800px;
+  padding: 20px;
 }
 
 .hero-text {
@@ -25,4 +32,13 @@
   .master-container {
     max-width: 1000px;
   }
+}
+
+.rotating-lesson,
+.rotating-interest {
+  font-weight: bold;
+}
+
+.inline-address {
+  display: inline;
 }
