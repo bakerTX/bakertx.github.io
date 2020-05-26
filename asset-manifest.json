@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/2020-personal-site/static/css/main.1dfc47c1.chunk.css",
-    "main.js": "/2020-personal-site/static/js/main.f95352d9.chunk.js",
-    "main.js.map": "/2020-personal-site/static/js/main.f95352d9.chunk.js.map",
-    "runtime-main.js": "/2020-personal-site/static/js/runtime-main.8cb26343.js",
-    "runtime-main.js.map": "/2020-personal-site/static/js/runtime-main.8cb26343.js.map",
-    "static/js/2.c3a4e9e5.chunk.js": "/2020-personal-site/static/js/2.c3a4e9e5.chunk.js",
-    "static/js/2.c3a4e9e5.chunk.js.map": "/2020-personal-site/static/js/2.c3a4e9e5.chunk.js.map",
+    "main.css": "/2020-personal-site/static/css/main.ffd9352c.chunk.css",
+    "main.js": "/2020-personal-site/static/js/main.4c8035a7.chunk.js",
+    "main.js.map": "/2020-personal-site/static/js/main.4c8035a7.chunk.js.map",
+    "runtime-main.js": "/2020-personal-site/static/js/runtime-main.d12d36f1.js",
+    "runtime-main.js.map": "/2020-personal-site/static/js/runtime-main.d12d36f1.js.map",
+    "static/js/2.78713701.chunk.js": "/2020-personal-site/static/js/2.78713701.chunk.js",
+    "static/js/2.78713701.chunk.js.map": "/2020-personal-site/static/js/2.78713701.chunk.js.map",
     "index.html": "/2020-personal-site/index.html",
-    "precache-manifest.fdf2ebd396be46322f1d4058b700ef18.js": "/2020-personal-site/precache-manifest.fdf2ebd396be46322f1d4058b700ef18.js",
+    "precache-manifest.86e72d370b0168444a2f87aede63790e.js": "/2020-personal-site/precache-manifest.86e72d370b0168444a2f87aede63790e.js",
     "service-worker.js": "/2020-personal-site/service-worker.js",
-    "static/css/main.1dfc47c1.chunk.css.map": "/2020-personal-site/static/css/main.1dfc47c1.chunk.css.map",
-    "static/js/2.c3a4e9e5.chunk.js.LICENSE.txt": "/2020-personal-site/static/js/2.c3a4e9e5.chunk.js.LICENSE.txt",
-    "static/media/Astro3952_rectangle.jpg": "/2020-personal-site/static/media/Astro3952_rectangle.e9075e6a.jpg"
+    "static/css/main.ffd9352c.chunk.css.map": "/2020-personal-site/static/css/main.ffd9352c.chunk.css.map",
+    "static/js/2.78713701.chunk.js.LICENSE.txt": "/2020-personal-site/static/js/2.78713701.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8cb26343.js",
-    "static/js/2.c3a4e9e5.chunk.js",
-    "static/css/main.1dfc47c1.chunk.css",
-    "static/js/main.f95352d9.chunk.js"
+    "static/js/runtime-main.d12d36f1.js",
+    "static/js/2.78713701.chunk.js",
+    "static/css/main.ffd9352c.chunk.css",
+    "static/js/main.4c8035a7.chunk.js"
   ]
 }
