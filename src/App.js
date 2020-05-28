@@ -18,9 +18,8 @@ function App() {
       <div className="flex-item">
         <header>
           <h1 className="hero-text">
-            Aaron Baker is a front end web engineer working in Austin, TX.
+            Aaron Baker is a front end website developer working in Austin, TX.
           </h1>
-          <p>---</p>
           <p>
             I specialize in translating visual designs into responsive and
             sensible user interfaces, using CSS and React.
@@ -39,7 +38,6 @@ function App() {
               .
             </span>
           </p>
-          <p>---</p>
         </header>
         <h2>Contact me</h2>
         <p>
