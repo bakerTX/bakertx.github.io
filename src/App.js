@@ -1,18 +1,33 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 import './home.css';
 import './theme.css';
 import './util.css';
 
 function App() {
+  const [revolvingIndex, setRevolvingIndex] = useState(0);
+
   const rotatingInterests = [
     'web accessibility',
-    'website discoverability with SEO',
     'flexbox',
-    'server side rendering',
+    'website discoverability with SEO',
+    'domain management',
+    'analytics',
   ];
 
-  const random = Math.floor(Math.random() * rotatingInterests.length);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (revolvingIndex < rotatingInterests.length - 1) {
+        setRevolvingIndex(revolvingIndex + 1);
+      } else {
+        setRevolvingIndex(0);
+      }
+    }, 2000);
+
+    return () => clearInterval(interval);
+  });
+
+  const email = 'ab@aaronbaker.dev';
   return (
     <div className="master-container">
       <div className="flex-item">
@@ -34,7 +49,7 @@ function App() {
             Right now, I&#39;m learning more about
             {' '}
             <span className="rotating-interest">
-              {rotatingInterests[random]}
+              {rotatingInterests[revolvingIndex]}
               .
             </span>
           </p>
@@ -46,9 +61,7 @@ function App() {
           email at
           {'  '}
           <address className="inline-address">
-            <a href="mailto:aaronbaker9210@gmail.com">
-              aaronbaker9210@gmail.com
-            </a>
+            <a href={`mailto:${email}`}>{email}</a>
           </address>
           .
         </p>
