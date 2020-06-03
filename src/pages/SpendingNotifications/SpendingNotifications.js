@@ -39,12 +39,12 @@ const SpendingNotifications = () => (
           src={Page}
           alt="spending notifications page"
         />
+        <img
+          className="project-image"
+          src={SidePanel}
+          alt="spending notifications sidepanel component"
+        />
       </div>
-      <img
-        className="project-image"
-        src={SidePanel}
-        alt="spending notifications sidepanel component"
-      />
     </main>
     <footer>
       <Link to="/">Go back home</Link>

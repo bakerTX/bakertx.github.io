@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import FourOhFour from './pages/FourOhFour';
 import SpendingNotifications from './pages/SpendingNotifications/SpendingNotifications';
 import Promotions from './pages/Promotions/Promotions';
+import Subscriptions from './pages/Subscriptions/Subscriptions';
 
 // stylesheets
 import './home.css';
@@ -17,6 +18,9 @@ function App() {
     <Router>
       <div className="master-container">
         <Switch>
+          <Route path="/subscriptions">
+            <Subscriptions />
+          </Route>
           <Route path="/promotions">
             <Promotions />
           </Route>

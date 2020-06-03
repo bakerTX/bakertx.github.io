@@ -66,16 +66,14 @@ const Home = () => {
               <Link to="/promotions">Promotions</Link>
             </li>
             <li>
-              <UnderConstruction title="Subscriptions">
-                <Link to="/subscriptions">Subscriptions</Link>
-              </UnderConstruction>
+              <Link to="/subscriptions">Subscriptions</Link>
             </li>
           </ul>
           <h3>Personal</h3>
           <ul>
             <li>
-              <UnderConstruction title="Memo Prototype">
-                <Link to="/memo-prototype">Memo Prototype</Link>
+              <UnderConstruction title="Habit Tracker">
+                <Link to="/habit-tracker">Habit Tracker</Link>
               </UnderConstruction>
             </li>
             <li>
@@ -84,8 +82,8 @@ const Home = () => {
               </UnderConstruction>
             </li>
             <li>
-              <UnderConstruction title="Habit Tracker">
-                <Link to="/habit-tracker">Habit Tracker</Link>
+              <UnderConstruction title="Memo Prototype">
+                <Link to="/memo-prototype">Memo Prototype</Link>
               </UnderConstruction>
             </li>
           </ul>
