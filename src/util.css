@@ -1,10 +1,17 @@
-.column {
-  display: flex;
-  flex-direction: column;
+.project-image {
+  max-width: 100%;
 }
 
-.centered {
+.tag-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.tag-container > .tag {
+  margin-right: 10px;
+  margin-top: 5px;
+  border: 1px solid ivory;
+  border-radius: 5px;
+  padding: 5px;
 }
