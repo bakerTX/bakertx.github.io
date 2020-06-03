@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import UnderConstruction from '../components/UnderConstruction';
 
 const Home = () => {
   const [revolvingIndex, setRevolvingIndex] = useState(0);
@@ -67,24 +66,6 @@ const Home = () => {
             </li>
             <li>
               <Link to="/subscriptions">Subscriptions</Link>
-            </li>
-          </ul>
-          <h3>Personal</h3>
-          <ul>
-            <li>
-              <UnderConstruction title="Habit Tracker">
-                <Link to="/habit-tracker">Habit Tracker</Link>
-              </UnderConstruction>
-            </li>
-            <li>
-              <UnderConstruction title="Emoji Media">
-                <Link to="/emoji-media">Emoji Media</Link>
-              </UnderConstruction>
-            </li>
-            <li>
-              <UnderConstruction title="Memo Prototype">
-                <Link to="/memo-prototype">Memo Prototype</Link>
-              </UnderConstruction>
             </li>
           </ul>
         </div>
