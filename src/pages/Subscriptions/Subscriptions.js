@@ -21,10 +21,10 @@ const Subscriptions = () => (
     <main>
       <div className="description">
         <p>
-          The subscriptions page gives the user detailed information about the
-          burndown of their cloud platform subscriptions. We implement reusable
-          data visualation components to convey this information quickly and
-          efficiently, while adhering to a consistent IBM design language.
+          The Subscriptions and credit page provides the user with detailed
+          information about the burndown of their Cloud Platform subscriptions.
+          I implemented reusable data visualization components to convey this
+          information while adhering to a consistent IBM design.
         </p>
         <div className="tag-container">
           <div className="highlight tag">Data visualization</div>

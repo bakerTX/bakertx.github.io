@@ -20,11 +20,11 @@ const SpendingNotifications = () => (
     <main>
       <div className="description">
         <p>
-          The spending notifications page allows a user to set up custom
-          notifications for the services within their account. An email will be
-          sent out when the chosen service has reached a dollar threshold
-          amount. These notifications allow the user to have greater awareness
-          and insight into the activity of their deployed services.
+          The Spending notifications page allows a user to set up custom
+          notifications for the services within their account. The user receives
+          a notification when their chosen service has reached a dollar
+          threshold amount. These notifications allow the user to have a greater
+          awareness and insight into the activity of their services.
         </p>
         <div className="tag-container">
           <div className="highlight tag">GraphQL</div>

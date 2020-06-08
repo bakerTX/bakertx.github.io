@@ -20,14 +20,12 @@ const Promotions = () => (
     <main>
       <div className="description">
         <p>
-          The promotions page allows a user to redeem promotion codes, unlocking
-          credit for their cloud platform account. We show a list of currently
-          applied promo codes, their timeframes and remaining credits. We show
-          the hypothetical effects of a promo code before it is applied, and
-          allow the user to confirm its application. The components on this page
-          have been designed and built in a way to be fully reusable and are
-          being installed and used in a variety of other place of our cloud
-          platform.
+          The Promotions page allows a user to redeem promotion codes and unlock
+          credit for their Cloud Platform account. The page shows a list of the
+          user’s applied promo codes, their timeframes, and any remaining
+          credits. Users can see the effects of a promo code and then confirm
+          its application. The components on this page have been designed to be
+          reusable and are used throughout the cloud platform.
         </p>
         <div className="tag-container">
           <div className="highlight tag">Reusable components</div>

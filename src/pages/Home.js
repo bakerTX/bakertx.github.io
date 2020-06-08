@@ -73,9 +73,8 @@ const Home = () => {
       <footer>
         <h2>Contact me</h2>
         <p>
-          If you&#39;re interested in collaborating on a project, or in
-          discussing my current work availability, please contact me with an
-          email at
+          If you&#39;re interested in collaborating on a project or discussing
+          my current work availability, please contact me with an email at
           {'  '}
           <address className="inline-address">
             <a href={`mailto:${email}`}>{email}</a>
