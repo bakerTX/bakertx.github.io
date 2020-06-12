@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import resumeFile from '../resume.pdf';
 
 const Home = () => {
   const [revolvingIndex, setRevolvingIndex] = useState(0);
@@ -81,6 +82,12 @@ const Home = () => {
           </address>
           .
         </p>
+        <details open>
+          <summary>View resume</summary>
+          <object type="application/pdf" data={resumeFile} width="600" height="700">
+            <a href={resumeFile} alt="Download resume" target="_blank" rel="noopener noreferrer">Download resume</a>
+          </object>
+        </details>
       </footer>
     </div>
   );

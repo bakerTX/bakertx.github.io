@@ -23,6 +23,7 @@
     ],
     "rules": {
       "react/jsx-filename-extension": "off",
-      "max-len": "off"
+      "max-len": "off",
+      "linebreak-style": "off"
     }
 }
