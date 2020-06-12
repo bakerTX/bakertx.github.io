@@ -85,7 +85,7 @@ const Home = () => {
         <details open>
           <summary>View resume</summary>
           <object type="application/pdf" data={resumeFile} width="600" height="700">
-            <a href={resumeFile} alt="Download resume" target="_blank" rel="noopener noreferrer">Download resume</a>
+            <a href={resumeFile} alt="Download resume">Download resume</a>
           </object>
         </details>
       </footer>
