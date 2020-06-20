@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+
+import Offer from '../components/Offer';
+import InlineAddress from '../components/InlineAddress';
 import resumeFile from '../resume.pdf';
 
 const Home = () => {
@@ -25,7 +28,6 @@ const Home = () => {
     return () => clearInterval(interval);
   });
 
-  const email = 'ab@aaronbaker.dev';
   return (
     <div className="flex-container">
       <header>
@@ -72,17 +74,17 @@ const Home = () => {
           If you&#39;re interested in collaborating on a project or discussing
           my current work availability, please contact me with an email at
           {'  '}
-          <address className="inline-address">
-            <a href={`mailto:${email}`}>{email}</a>
-          </address>
+          <InlineAddress />
           .
         </p>
-        <details open>
+        <details className="home__resume-accordion">
           <summary>View resume</summary>
           <object type="application/pdf" data={resumeFile} width="600" height="700">
             <a href={resumeFile} alt="Download resume">Download resume</a>
           </object>
         </details>
+
+        <Offer />
       </footer>
     </div>
   );

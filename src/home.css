@@ -50,3 +50,7 @@
   text-decoration: line-through;
   margin-right: 0.25rem;
 }
+
+.home__resume-accordion {
+  margin-bottom: 40px;
+}
