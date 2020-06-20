@@ -7,10 +7,10 @@ const Home = () => {
 
   const rotatingInterests = [
     'web accessibility',
-    'flexbox',
     'SEO',
     'domain management',
-    'analytics',
+    'internet content creation',
+    'react bundles and code splitting',
   ];
 
   useEffect(() => {
@@ -20,7 +20,7 @@ const Home = () => {
       } else {
         setRevolvingIndex(0);
       }
-    }, 2000);
+    }, 1600);
 
     return () => clearInterval(interval);
   });
@@ -38,11 +38,6 @@ const Home = () => {
           <p>
             I specialize in translating visual designs into responsive and
             sensible user interfaces, using CSS and React.
-          </p>
-
-          <p>
-            I&#39;ve worked on the front end of enterprise-level software
-            applications for 4 years.
           </p>
 
           <p>
