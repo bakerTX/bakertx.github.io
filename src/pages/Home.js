@@ -12,8 +12,8 @@ const Home = () => {
     'web accessibility',
     'SEO',
     'domain management',
-    'internet content creation',
     'react bundles and code splitting',
+    'advanced CSS architecture',
   ];
 
   useEffect(() => {
@@ -77,7 +77,7 @@ const Home = () => {
           <InlineAddress />
           .
         </p>
-        <details className="home__resume-accordion">
+        <details open className="home__resume-accordion">
           <summary>View resume</summary>
           <object type="application/pdf" data={resumeFile} width="600" height="700">
             <a href={resumeFile} alt="Download resume">Download resume</a>

@@ -10,20 +10,17 @@ const Offer = () => (
     <div className="offer__container">
       <h3>Like this site?</h3>
       <p className="offer__description">
-        I decided to start offering my websites to the world. My dream is to build websites for people and to make a living from it. Right now, I specialize in creating lightweight, portable, and quickly deployed websites for individuals and
-        {' '}
-        <em>small</em>
-        {' '}
-        businesses. 😀
-        <br />
-        My favorite websites are hand-made and made with care. While I won&#39;t be able to build the next world class Amazon competitor website for you, I can offer a solid and reponsive site - customized to your preferences. Your new site will be fast to load and accessible from anywhere.
-        <br />
-        If you&#39;re interested in something like this, let&#39;s talk. You can find me at
+        I decided to start offering my websites to the world. I&#39;m offering a fast, responsive, and quickly deployed website for individuals who are looking for a personal portfolio, or any sort of lightweight web presence.
+      </p>
+      <p className="offer__description">
+        My favorite websites are hand-made and made with care. While I can&#39;t offer you the next world class Amazon competitor, I can offer a solid and reponsive site that is customized to your needs.
+      </p>
+      <p className="offer__description">
+        If you&#39;re interested, let&#39;s talk. You can find me at
         {' '}
         <InlineAddress />
         .
       </p>
-      <h3 className="offer__price">$200</h3>
     </div>
   </>
 );
