@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://www.aaronbaker.dev",
-  "dependencies": {},
-  "scripts": {},
-  "devDependencies": {}
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
 }
