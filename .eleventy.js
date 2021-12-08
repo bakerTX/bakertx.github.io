@@ -4,7 +4,8 @@ module.exports = function(eleventyConfig) {
     return {
       dir: {
         input: "pages",
-        output: "_site"
+        output: "_site",
+        layouts: "_layouts"
       }
     }
   };

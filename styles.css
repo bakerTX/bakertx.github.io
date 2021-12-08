@@ -50,9 +50,35 @@ main {
 }
 
 main > *:first-of-type {
-  margin-left: 100px;
+  /* margin-left: 100px; */
+  overflow: hidden;
 }
 
 body {
   display: flex;
+}
+
+.slider {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: nowrap;
+  animation: 5s infinite keepsliding;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+@keyframes keepsliding {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.slider .item {
+  width: 250px;
+  height: 200px;
+  /* display: inline-block; */
+  margin-right: 20px;
 }
